@@ -1,5 +1,5 @@
 {
-    "name": "ilzrv/laravel-steam-auth",
+    "name": "duelistrage/laravel-steam-auth",
     "description": "Steam Auth for Laravel",
     "require": {
         "php": "^8.1",
