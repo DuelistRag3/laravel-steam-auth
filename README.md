@@ -14,7 +14,7 @@ Package allows you to implement Steam authentication in your Laravel project.
 ## Installation
 #### Install the package
 ```bash
-composer require ilzrv/laravel-steam-auth
+composer require duelistrage/laravel-steam-auth
 ```
 
 #### Publish the config file
