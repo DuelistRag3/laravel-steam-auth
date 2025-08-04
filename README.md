@@ -45,7 +45,7 @@ declare(strict_types=1);
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\HttpFactory;
 use Illuminate\Http\Request;
-use Ilzrv\LaravelSteamAuth\SteamAuthenticator;
+use DuelistRage\LaravelSteamAuth\SteamAuthenticator;
 
 public function __invoke(
     Request $request,
@@ -114,10 +114,10 @@ use Illuminate\Auth\AuthManager;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
-use Ilzrv\LaravelSteamAuth\Exceptions\Authentication\SteamResponseNotValidAuthenticationException;
-use Ilzrv\LaravelSteamAuth\Exceptions\Validation\ValidationException;
-use Ilzrv\LaravelSteamAuth\SteamAuthenticator;
-use Ilzrv\LaravelSteamAuth\SteamUserDto;
+use DuelistRage\LaravelSteamAuth\Exceptions\Authentication\SteamResponseNotValidAuthenticationException;
+use DuelistRage\LaravelSteamAuth\Exceptions\Validation\ValidationException;
+use DuelistRage\LaravelSteamAuth\SteamAuthenticator;
+use DuelistRage\LaravelSteamAuth\SteamUserDto;
 
 final class SteamAuthController
 {
